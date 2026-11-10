@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import { apiSuccess, apiError } from "@/lib/api-response";
+export const dynamic = "force-dynamic";
 
 /** GET /api/categories - List all categories */
 export async function GET() {
